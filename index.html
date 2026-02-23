@@ -1,138 +1,97 @@
 <!doctype html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-<meta name="supported-color-schemes" content="light">
+  <meta name="supported-color-schemes" content="light">
   <title>Mosaic - NutriVantagens</title>
+
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: #ffffff !important;
-    }
+    body { margin:0; padding:0; background:#ffffff !important; }
+    img { display:block; border:0; outline:none; text-decoration:none; }
+    .container { width:600px; max-width:600px; margin:0 auto; background:#ffffff; }
+    .text { font-family:Arial,Helvetica,sans-serif; color:#333333; font-size:15px; line-height:22px; margin:0; }
+    .button { font-family:Arial,Helvetica,sans-serif; font-weight:bold; text-transform:uppercase; text-decoration:none; display:block; }
 
-    img {
-      display: block;
-      border: 0;
-      outline: none;
-      text-decoration: none;
-    }
-
-    .container {
-      width: 600px;
-      max-width: 600px;
-      margin: 0 auto;
-      background: #ffffff;
-    }
-
-    .text {
-      font-family: Arial, Helvetica, sans-serif;
-      color: #333333;
-      font-size: 15px;
-      line-height: 22px;
-    }
-
-    .button {
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight: bold;
-      text-transform: uppercase;
-      text-decoration: none;
-      display: block;
-    }
-
-    @media screen and (max-width:600px) {
-      .container {
-        width: 100% !important;
-      }
+    @media screen and (max-width:600px){
+      .container { width:100% !important; }
+      .px { padding-left:16px !important; padding-right:16px !important; }
+      .btn-w { width:100% !important; }
     }
   </style>
 </head>
 
 <body>
-
-  <table width="100%" bgcolor="#f2f2f2">
+  <table width="100%" bgcolor="#f2f2f2" style="background:#f2f2f2;">
     <tr>
       <td align="center">
 
-        <table class="container">
+        <table class="container" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="background:#ffffff;">
 
           <!-- HERO -->
           <tr>
             <td>
-              <img src="https://mosaic-email-pack.vercel.app/hero.png" width="600" alt="NutriVantagens">
+              <img src="https://mosaic-email-pack.vercel.app/hero.png" width="600" alt="NutriVantagens"
+                   style="width:600px;max-width:600px;height:auto;">
             </td>
           </tr>
 
           <!-- BARRA VERDE -->
           <tr>
             <td bgcolor="#b7c70d" align="center" style="padding:22px 24px;">
-              <p class="text" style="margin:0;font-size:16px;color:#111;">
+              <p class="text" style="font-size:16px;line-height:24px;color:#111;">
                 Aproveite sua <strong>condição exclusiva na Dinetec</strong> e turbine sua próxima compra usando seu
                 saldo NutriVantagens.
               </p>
             </td>
           </tr>
 
-          <tr>
-            <td height="25"></td>
-          </tr>
+          <tr><td height="25" style="font-size:0;line-height:0;">&nbsp;</td></tr>
 
-          <!-- CARD PRINCIPAL -->
+          <!-- CARD PRINCIPAL  -->
           <tr>
-            <td style="padding:0 24px;">
+            <td class="px" style="padding:24px;">
 
-              <table width="100%" style="border:2px solid #B9CC01;border-radius:24px; ">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0"
+                     style="border:2px solid #B9CC01;border-radius:24px;">
                 <tr>
-                  <td align="center" style="padding:24px;">
+                  <td align="center" style="padding:20px 18px 20px 18px;">
 
-                    <!-- TITULO -->
-                    <table style="margin-top: -50px;">
+                    <!-- TÍTULO -->
+                    <table cellpadding="0" cellspacing="0" border="0" role="presentation" align="center" style="
+    margin-top: -40px;">
                       <tr>
-                        <td bgcolor="#b7c70d" style="padding:14px 22px;border-radius:18px;">
-                          <p
-                            style="margin:0;font-family:Arial;font-weight:bold;color:#0b3b33;text-transform:uppercase; ">
+                        <td bgcolor="#b7c70d" align="center" style="padding:14px 22px;border-radius:18px;">
+                          <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-weight:bold;
+                                    color:#0b3b33;text-transform:uppercase;">
                             VEJA COMO SEU SALDO TRABALHA PARA VOCÊ
                           </p>
                         </td>
                       </tr>
                     </table>
 
-                    <br>
+                    <div style="height:14px;line-height:14px;font-size:0;">&nbsp;</div>
 
                     <!-- ITEM 1 -->
-                    <table width="100%">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
                       <tr>
-                        <td width="72" align="center" style="padding:14px 0;">
-                          <table width="54" height="54" style="">
-                            <tr>
-                              <td align="center">
-                                <img src="https://mosaic-email-pack.vercel.app/mosaic_icon_1.png" width="54">
-                              </td>
-                            </tr>
-                          </table>
+                        <td width="72" align="center" style="padding:12px 0;">
+                          <img src="https://mosaic-email-pack.vercel.app/mosaic_icon_1.png" width="50" alt="">
                         </td>
-                        <td class="text">
+                        <td class="text" style="padding:12px 0;">
                           Você possui <strong>$ 10.000</strong> de saldo acumulado no NutriVantagens.
                         </td>
                       </tr>
                     </table>
 
                     <!-- ITEM 2 -->
-                    <table width="100%">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
                       <tr>
-                        <td width="72" align="center" style="padding:14px 0;">
-                          <table width="54" height="54" style="">
-                            <tr>
-                              <td align="center">
-                                <img src="https://mosaic-email-pack.vercel.app/mosaic_icon_2.png" width="54">
-                              </td>
-                            </tr>
-                          </table>
+                        <td width="72" align="center" style="padding:12px 0;">
+                          <img src="https://mosaic-email-pack.vercel.app/mosaic_icon_2.png" width="50" alt="">
                         </td>
-                        <td class="text">
+                        <td class="text" style="padding:12px 0;">
                           Transforme esse saldo em <strong>1.400 litros</strong> (ou mais) de produtos da linha
                           <strong>Biosciences</strong>.
                         </td>
@@ -140,30 +99,26 @@
                     </table>
 
                     <!-- ITEM 3 -->
-                    <table width="100%">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
                       <tr>
-                        <td width="72" align="center" style="padding:14px 0;">
-                          <table width="54" height="54" style="">
-                            <tr>
-                              <td align="center">
-                                <img src="https://mosaic-email-pack.vercel.app/mosaic_icon_3.png" width="54">
-                              </td>
-                            </tr>
-                          </table>
+                        <td width="72" align="center" style="padding:12px 0;">
+                          <img src="https://mosaic-email-pack.vercel.app/mosaic_icon_3.png" width="50" alt="">
                         </td>
-                        <td class="text">
+                        <td class="text" style="padding:12px 0;">
                           Receba <strong>R$ 2.604,00</strong> de volta na sua conta através do Cashback.
                         </td>
                       </tr>
                     </table>
 
-                    <br>
+                    <div style="height:14px;line-height:14px;font-size:0;">&nbsp;</div>
 
-                    <!-- BOTAO -->
-                    <table align="center">
+                    <!-- BOTÃO -->
+                    <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="
+    margin-bottom: -50px;">
                       <tr>
                         <td bgcolor="#0b4f45" style="border-radius:28px;">
-                          <a href="#" class="button" style="padding:18px 38px;color:#ffffff;border-radius:28px;">
+                          <a href="#" class="button"
+                             style="padding:18px 38px;color:#ffffff;border-radius:28px;text-align:center;">
                             VISITE O ESTANDE MOSAIC
                           </a>
                         </td>
@@ -177,75 +132,66 @@
             </td>
           </tr>
 
-          <tr>
-            <td height="30"></td>
-          </tr>
+          <tr><td height="30" style="font-size:0;line-height:0;">&nbsp;</td></tr>
 
           <!-- CARD CINZA -->
           <tr>
-            <td style="padding:0 24px;">
+            <td class="px" style="padding:24px;">
 
-              <table width="100%" bgcolor="#efefef" style="border-radius:0px 26px;">
+              <table width="100%" bgcolor="#efefef" cellpadding="0" cellspacing="0" border="0"
+                     style="background:#efefef;border-radius:0px 26px;">
                 <tr>
                   <td align="center" style="padding:26px;">
 
-                    <p style="font-family:Arial;font-weight:bold;color:#4a4a4a;text-transform:uppercase;margin:0;">
+                    <p style="font-family:Arial,Helvetica,sans-serif;font-weight:bold;color:#4a4a4a;text-transform:uppercase;margin:0;">
                       NÃO DEIXE SEU SALDO PARADO
                     </p>
 
-                    <br>
+                    <div style="height:14px;line-height:14px;font-size:0;">&nbsp;</div>
 
-                    <p class="text" style="color:#4a4a4a;margin:0;">
+                    <p class="text" style="color:#4a4a4a;">
                       A hora de transformar sua produtividade é <strong>agora</strong>.
                     </p>
 
-                    <br>
+                    <div style="height:10px;line-height:10px;font-size:0;">&nbsp;</div>
 
-                    <p class="text" style="color:#4a4a4a;margin:0;">
+                    <p class="text" style="color:#4a4a4a;">
                       Aproveite essa <strong>condição exclusiva</strong> para maximizar sua produção.
                     </p>
 
-                    <br>
+                    <div style="height:18px;line-height:18px;font-size:0;">&nbsp;</div>
+
+                    <!-- BOTÃO AMARELO -->
+                    <table cellpadding="0" cellspacing="0" border="0" role="presentation" align="center" class="btn-w" style="
+    margin-bottom: -50px;">
+                      <tr>
+                        <td bgcolor="#b7c70d" align="center" style="border-radius:18px;">
+                          <a href="#" class="button"
+                             style="padding:16px 22px;color:#0b3b33;border-radius:18px;display:block;text-align:center;">
+                            FALE COM O SEU GERENTE DE CONTAS<br>EM CASO DE DÚVIDAS
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+
                   </td>
                 </tr>
               </table>
-               <!-- BOTÃO AMARELO (linha separada, centralizado, sem margin) -->
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-        <tr>
-          <td align="center" style="padding:0 0 0 0;">
-
-            <!-- “puxa” o botão pra cima usando line-height hack (compatível) -->
-            <div style="font-size:0;line-height:0;height:0;margin-top:-22px;">&nbsp;</div>
-
-            <table cellpadding="0" cellspacing="0" border="0" role="presentation">
-              <tr>
-                <td bgcolor="#b7c70d" align="center" style="border-radius:18px;">
-                  <a href="#" class="button"
-                     style="padding:16px 22px;color:#0b3b33;border-radius:18px;
-                            display:block;font-family:Arial,Helvetica,sans-serif;font-weight:bold;
-                            text-transform:uppercase;text-align:center;">
-                    FALE COM O SEU GERENTE DE CONTAS<br>EM CASO DE DÚVIDAS
-                  </a>
-                </td>
-              </tr>
-            </table>
 
             </td>
           </tr>
 
-          <tr>
-            <td height="30"></td>
-          </tr>
+          <tr><td height="30" style="font-size:0;line-height:0;">&nbsp;</td></tr>
 
           <!-- FOOTER -->
           <tr>
             <td bgcolor="#e9e9e9" align="center" style="padding:30px;">
 
-              <img src="https://mosaic-email-pack.vercel.app/mosaic_logo.png" width="160">
+              <img src="https://mosaic-email-pack.vercel.app/mosaic_logo.png" width="160" alt="Mosaic">
 
               <br><br>
 
-              <p style="font-family:Arial;font-size:12px;color:#2a2a2a;margin:0;">
+              <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#2a2a2a;margin:0;">
                 %%Member_Busname%%<br>
                 %%Member_Addr0%%<br>
                 %%Member_City%%, %%Member_State%% – %%Member_PostalCode%%<br>
@@ -254,46 +200,38 @@
 
               <br>
 
-              <p style="font-family:Arial;font-size:12px;color:#2a2a2a;margin:0;">
+              <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#2a2a2a;margin:0;">
                 © 2026 Mosaic. Todos os direitos reservados.
               </p>
 
               <br>
 
               <!-- SOCIAL -->
-<table align="center" cellpadding="0" cellspacing="0" style="font-size:0;line-height:0;">
-  <tr>
-    <td style="padding:0 8px;">
-      <a href="#" target="_blank">
-        <img src="https://mosaic-email-pack.vercel.app/social_fb.png"
-             width="22" height="22"
-             alt="Facebook"
-             style="display:block;border:0;">
-      </a>
-    </td>
-    <td style="padding:0 8px;">
-      <a href="#" target="_blank">
-        <img src="https://mosaic-email-pack.vercel.app/social_ig.png"
-             width="22" height="22"
-             alt="Instagram"
-             style="display:block;border:0;">
-      </a>
-    </td>
-    <td style="padding:0 8px;">
-      <a href="#" target="_blank">
-        <img src="https://mosaic-email-pack.vercel.app/social_yt.png"
-             width="22" height="22"
-             alt="YouTube"
-             style="display:block;border:0;">
-      </a>
-    </td>
-  </tr>
-</table>
+              <table align="center" cellpadding="0" cellspacing="0" border="0" style="font-size:0;line-height:0;">
+                <tr>
+                  <td style="padding:0 8px;">
+                    <a href="#" target="_blank">
+                      <img src="https://mosaic-email-pack.vercel.app/social_fb.png" width="22" height="22" alt="Facebook" style="display:block;border:0;">
+                    </a>
+                  </td>
+                  <td style="padding:0 8px;">
+                    <a href="#" target="_blank">
+                      <img src="https://mosaic-email-pack.vercel.app/social_ig.png" width="22" height="22" alt="Instagram" style="display:block;border:0;">
+                    </a>
+                  </td>
+                  <td style="padding:0 8px;">
+                    <a href="#" target="_blank">
+                      <img src="https://mosaic-email-pack.vercel.app/social_yt.png" width="22" height="22" alt="YouTube" style="display:block;border:0;">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
               <br><br>
 
-              <p style="font-family:Arial;font-size:12px;">
-                <a href="%%unsub_center_url%%">Descadastramento</a> |
-                <a href="%%profile_center_url%%">Centro de Preferências</a>
+              <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;margin:0;">
+                <a href="%%unsub_center_url%%" style="color:#2a2a2a;text-decoration:underline;">Descadastramento</a> |
+                <a href="%%profile_center_url%%" style="color:#2a2a2a;text-decoration:underline;">Centro de Preferências</a>
               </p>
 
             </td>
@@ -306,5 +244,4 @@
   </table>
 
 </body>
-
 </html>
